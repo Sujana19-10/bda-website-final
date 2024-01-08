@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavana Digital Academy</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- boxicon link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>  
+     <!--ads section-->
+    
+  <div id="ad-container">
+    <a href="https://www.amazon.in/gp/product/B0BMVK486M/ref=cx_skuctr_share?smid=A15RDP8YVBDT2F" target="_blank" id="ad-link">
+      <div id="ad-content">
+        <img src="images/jutebag.png" alt="Ad Image" class="ad-image">
+        <div class="ad-text">
+          <p>Check out our amazing product!</p>
+        </div>
+      </div>
+    </a>
+    <div id="cancel-icon" onclick="cancelAd()">X</div>
+  </div>
+    
+     <!--navbar-->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul class="navbar">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="podcast.html">POD CAST</a></li>
+                </ul>
+            </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <div class="text-content">
+                <br>
+                <h1>You will get all you want in life,<br> if you help enough other people<br> get what they want.</h1>
+            </div>
+        </div>
+    </section>
+    
+     <!--services-->
+
+    <section class="services" py-5 bg-light>
+        <div class="container">
+            <div class="text-center">
+                <h1 data-aos="flip-left">Our Services</h1><br>
+                <hr class="w-25 m-auto"><br>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="fade-right">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <!-- <i class="fa fa-cloud-upload"></i> -->
+                            <h5 class="card-title text-dark">Financial Freedom</h5>
+                            <p class="card-text">Financial freedom is the state of being able to live comfortably and
+                                securely without worrying about money. It means having enough income to cover your
+                                expenses, save for your goals, and enjoy your life. Financial freedom is not just about
+                                how much money you have, but also how you manage it and how you feel about it.</p><br><br>
+                            <a href="financialfreedom.html" class="btn btn-primary text-dark text-decoration-underline">Get in Touch</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-down">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <!-- <i class="fa fa-cloud"></i> -->
+                            <h5 class="card-title text-dark">Life Coaching</h5>
+                            <p class="card-text">Life coaching is a process that helps people identify and achieve their
+                                personal and professional goals. A life coach can help you figure out what you want to
+                                achieve in life and develop a plan to get there. They can also help you overcome
+                                obstacles that are preventing you from achieving your goals..</p><br><br><br>
+                            <a href="lifecoaching.html" class="btn btn-primary text-dark text-decoration-underline">Get in Touch</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="fade-left">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <!-- <i class="fa fa-file"></i> -->
+                            <h5 class="card-title text-dark">PMP Certification</h5>
+                            <p class="card-text">PMP stands for Project Management Professional, and it is a globally
+                                recognized credential that demonstrates your ability to lead and manage projects of any
+                                size and complexity. PMP certification can help you advance your career, increase your
+                                salary, and improve your skills in project management.</p><br><br>
+                            <a href="#" class="btn btn-primary text-dark text-decoration-underline">Get in Touch</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <!-- incredible your programme section  -->
+
+    <section class="cta">
+
+        <div data-aos="zoom-in">
+            <h5> INCREDIBLE YOU PROGRAMME </h5>
+            <h1> UNLEASH YOUR INNER POTENTIAL </h1>
+            <p>
+                This is a 10-week coaching programme that aims to help you transform your life and achieve your
+                goals.<br>
+                It
+                is created by Arfeen Khan, a world-renowned peak performance coach who has worked<br> with celebrities
+                and
+                millionaires.
+            </p>
+            <a href="#" class="hero-btn"> Enroll Now </a>
+        </div>
+
+    </section>
+    <br>
+    <br>
+
+     
+    <!-- ............................What they say ................................ -->
+
+    <section class="testimonials">
+        <h1 data-aos="zoom-in"> What they Say </h1> <br>
+        <hr class="w-25 m-auto"> <br>
+
+        <div class="row">
+
+            <div class="testimonial-col" data-aos="zoom-out-right">
+
+                <div>
+                    <h5 class="sayy">
+                        <h4> Suparna malhotra </h4>
+                        I highly recommend AHCV Kumar as a leadership coach who conducted leadership training in our
+                        company. The training was exceptional. Kumar has a genuine passion for helping leaders unleash
+                        their full potential. What stood out most to
+                        me was the interactive nature of his training. Kumar provided meaningful opportunities for us to
+                        practice what we learned, receive feedback, and reflect on our strengths and areas for growth.
+                        Additionally, his real-world examples
+                        challenged us to think critically and apply our knowledge in practical situations.
+                    </h5>
+                    <br>
+
+                    <h5> </h5>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+
+
+            </div>
+
+            <div class="testimonial-col" data-aos="zoom-in">
+
+                <div>
+
+                    <h5 class="sayy">
+                        <h4> Chakravarty </h4>
+                        It’s been a while since I completed the PMP program! I still teach video production but can’t
+                        tell you how much my skill set has come in handy over the years and even more now!! It has been
+                        a nice transition this week going back into
+                        my online learning world! I Just wanted to say thanks, AHCV Kumar lessons are still in use in my
+                        daily life, now more than ever!
+                    </h5>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <h5> </h5>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+
+            </div>
+
+            <div class="testimonial-col" data-aos="zoom-out-left">
+
+                <div>
+                    <h5 class="sayy">
+                        <h4> Rammohan </h4>
+                        I just wanted you to know that I’ve learned so much about Edtech and myself my last two years .
+                        I’ve enjoyed my experiences at AHCV Kumar thus far. I really didn’t know what to expect, but
+                        I’ve been
+                        pleasantly surprised. Your courses make
+                        me feel like a kid in a candy store. I just want to take everything, because it sounds so
+                        interesting to me.
+                    </h5>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <h5> </h5>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+      <!--..................... footer ...................-->
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="section1">
+
+                <h1 class="" data-aos="zoom-in"> Bhavana </h1>
+
+                <p data-aos="zoom-in"> Digital Academy </p>
+
+                <br>
+
+                <a href=" https://www.facebook.com/ahcvkumar6/ " class="fa fa-facebook"> </a>
+
+                <a href="https://twitter.com/ahcvkumar" class="fa fa-twitter"> </a>
+
+                <a href=" http://www.linkedin.com/in/avvary-hema-chandra-venkata-kumar-pmp-a272b321 "
+                    class="fa fa-linkedin"> </a>
+
+                <a href="https://youtube.com/@ahcvkumar2210?si=SkzKzfDI9STYv5hU" class="fa fa-youtube"> </a>
+
+                <a href="https://www.instagram.com/coach.kumar?igsh=bHhnd3lwbHUyd3Vt" class="fa fa-instagram"> </a>
+
+            </div>
+
+            <div class="section2">
+                <br>
+                <h5 data-aos="zoom-in"> Quick Links </h5>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-primary "># Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-primary"># About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-primary"># Courses</a></li>
+                </ul>
+            </div>
+
+            <div class="section3">
+
+                <br>
+
+                <h5 data-aos="zoom-in"> Contact Us </h5>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-primary">
+                            <i class="fa fa-phone" style="font-size:12px"> </i>
+                            +919052785278
+                        </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-primary"> support@bhavanadigitalacademy.com </a>
+                    </li>
+                     <li class="nav-item mb-2">
+                        <p style="font-weight: bold;"> Book 1:1 call for More Details: </p>
+                        <h6>
+                            <a href="#" class="nav-link p-0 text-primary">
+                                https://calendly.com/coach_kumar/1-1-call-to-explore-more
+                            </a>
+                        </h6>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <p>
+            Designed & Developed with
+            <i class="fa fa-heart-o"> </i>
+            by
+            <i class="fa fa-at"> </i>
+            Bhavana Digital Academy
+        </p>
+
+        <p> &copy; 2023 Bhavana Digital Academy. All rights reserved.</p>
+
+    </footer>
+    
+    
+   <!--   -------------JavaScript for Toggle Menu--------------  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+    <!--   -------------JavaScript for AOS animations--------------  -->
+     
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+    <!--adds script-->
+   <script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("ad-container").style.display = "block";
+});
+
+function cancelAd() {
+  document.getElementById("ad-container").style.display = "none";
+}
+       </script> 
+<!--animations script-->
+    <script>
+     
+    const sr = ScrollReveal ({
+    distance: '40px',
+    duration: 2500,
+    reset: true
+});
+
+sr.reveal('.logo',{delay:200, origin: 'left'})
+sr.reveal('.navbar',{delay:400, origin: 'top'})
+
+sr.reveal('.text-box h1',{delay:680, origin: 'left'})
+    </script>
+
+</body>
+</html>
